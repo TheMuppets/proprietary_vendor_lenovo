@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/kingdom/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/kingdom/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/lenovo/kingdom/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lenovo/kingdom/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/kingdom/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/kingdom/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
