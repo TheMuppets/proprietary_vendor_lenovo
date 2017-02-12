@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/kingdom/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/kingdom/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/lenovo/kingdom/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lenovo/kingdom/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/kingdom/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/kingdom/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -182,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
