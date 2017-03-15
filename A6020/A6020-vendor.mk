@@ -62,9 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/lenovo/A6020/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
-    vendor/lenovo/A6020/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
-    vendor/lenovo/A6020/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/lenovo/A6020/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lenovo/A6020/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lenovo/A6020/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
@@ -81,8 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/lenovo/A6020/proprietary/etc/firmware/hbtp/hbtp_rohm_ql1500_np.cfg:system/etc/firmware/hbtp/hbtp_rohm_ql1500_np.cfg \
-    vendor/lenovo/A6020/proprietary/etc/firmware/hbtp/hbtp_rohm_ql1500_np.dat:system/etc/firmware/hbtp/hbtp_rohm_ql1500_np.dat \
     vendor/lenovo/A6020/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/lenovo/A6020/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -144,8 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/A6020/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so \
-    vendor/lenovo/A6020/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
-    vendor/lenovo/A6020/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/lenovo/A6020/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/A6020/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/lenovo/A6020/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
