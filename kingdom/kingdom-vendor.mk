@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/lenovo/kingdom/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/kingdom/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/lenovo/kingdom/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lenovo/kingdom/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/kingdom/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/kingdom/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
@@ -193,17 +192,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
@@ -241,4 +235,10 @@ PRODUCT_PACKAGES += \
     libwpa_qmi_eap_proxy \
     TimeService \
     shutdownlistener \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    libqmi \
+    libqmi_cci \
+    libqmiservices \
+    libqcci_legacy \
+    libqmi_client_qmux \
+    libmdmdetect
