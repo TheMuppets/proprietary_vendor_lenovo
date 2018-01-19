@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
     vendor/lenovo/kingdom/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/lenovo/kingdom/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
-    vendor/lenovo/kingdom/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/lenovo/kingdom/proprietary/vendor/etc/tfa98xx/Lenovo.speaker:system/vendor/etc/tfa98xx/Lenovo.speaker \
     vendor/lenovo/kingdom/proprietary/vendor/etc/tfa98xx/Lenovo_HQ.eq:system/vendor/etc/tfa98xx/Lenovo_HQ.eq \
     vendor/lenovo/kingdom/proprietary/vendor/etc/tfa98xx/Lenovo_HQ.preset:system/vendor/etc/tfa98xx/Lenovo_HQ.preset \
