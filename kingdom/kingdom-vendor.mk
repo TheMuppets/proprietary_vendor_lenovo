@@ -208,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libtfa98xx.so:system/vendor/lib/libtfa98xx.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
