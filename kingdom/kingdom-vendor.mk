@@ -68,10 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kingdom/proprietary/vendor/framework/ConnectivityExt.jar:system/vendor/framework/ConnectivityExt.jar \
     vendor/lenovo/kingdom/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/lenovo/kingdom/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libarcsoft_flawless_face.so:system/vendor/lib/libarcsoft_flawless_face.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libarcsoft_hdr.so:system/vendor/lib/libarcsoft_hdr.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libarcsoft_night_shot.so:system/vendor/lib/libarcsoft_night_shot.so \
-    vendor/lenovo/kingdom/proprietary/vendor/lib/libarcsoft_panorama_burstcapture.so:system/vendor/lib/libarcsoft_panorama_burstcapture.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lenovo/kingdom/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
