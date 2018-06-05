@@ -743,6 +743,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/lenovo/YTX703-common/proprietary/vendor/lib/libprotobuf-cpp-Hlte.so:system/vendor/lib/libprotobuf-cpp-Hlte.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -881,6 +882,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libprotobuf-cpp-Hlte.so:system/vendor/lib64/libprotobuf-cpp-Hlte.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
