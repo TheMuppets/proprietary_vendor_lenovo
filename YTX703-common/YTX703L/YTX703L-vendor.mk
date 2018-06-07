@@ -72,11 +72,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libmmcamera2_mct.so \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libsensor1.so \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libswdap.so \
-    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libsensor1.so
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so
