@@ -963,7 +963,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
-    CNEService \
     qcrilmsgtunnel \
     com.qualcomm.location \
     ConnectivityExt \
