@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/lenovo/YTX703-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/lenovo/YTX703-common/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
+    vendor/lenovo/YTX703-common/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/lenovo/YTX703-common/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/lenovo/YTX703-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/lenovo/YTX703-common/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -67,6 +68,56 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/proprietary/vendor/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
     vendor/lenovo/YTX703-common/proprietary/vendor/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
     vendor/lenovo/YTX703-common/proprietary/vendor/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8952 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8976 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/ice40.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ice40.bin \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv.bin \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_1.3.bin \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_2.1.bin \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.0.bin \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.2.bin \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv.img \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_1.3.tlv \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_2.1.tlv \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.0.tlv \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.2.tlv \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus-v1.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b00 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus-v1.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b02 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus-v1.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b03 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus-v1.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b04 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b03 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/widevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b04 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
+    vendor/lenovo/YTX703-common/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
     vendor/lenovo/YTX703-common/proprietary/vendor/framework/com.qti.location.sdk.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qti.location.sdk.jar \
     vendor/lenovo/YTX703-common/proprietary/vendor/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_VENDOR)/framework/izat.xt.srv.jar \
     vendor/lenovo/YTX703-common/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
