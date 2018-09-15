@@ -21,7 +21,77 @@ ifeq ($(TARGET_DEVICE),kingdom)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwpa_qmi_eap_proxy
 LOCAL_MODULE_OWNER := lenovo
-LOCAL_SRC_FILES := proprietary/lib/libwpa_qmi_eap_proxy.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libwpa_qmi_eap_proxy.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmiservices
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmiservices.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_cci
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_cci.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcci_legacy
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqcci_legacy.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_client_qmux
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqmi_client_qmux.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libidl
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/vendor/lib/libidl.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmdmdetect
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/vendor/lib/libmdmdetect.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
