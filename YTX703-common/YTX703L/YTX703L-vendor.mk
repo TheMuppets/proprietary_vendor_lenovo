@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
+    vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/venus-v1.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b01 \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.mbn \
     vendor/lenovo/YTX703-common/YTX703L/proprietary/vendor/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.mdt \
