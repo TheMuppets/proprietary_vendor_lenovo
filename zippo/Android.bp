@@ -45,26 +45,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsdm-disp-vndapis",
-	owner: "lenovo",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsdm-disp-vndapis.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.capabilityconfigstore@1.0",
 	owner: "lenovo",
 	strip: {
@@ -82,26 +62,6 @@ cc_prebuilt_library_shared {
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsdm-disp-apis.qti",
-	owner: "lenovo",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/product/lib/libsdm-disp-apis.qti.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/product/lib64/libsdm-disp-apis.qti.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	product_specific: true,
 }
 
 cc_prebuilt_library_shared {
