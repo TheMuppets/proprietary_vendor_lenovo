@@ -1363,8 +1363,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    libplatformconfig \
-    vendor.qti.hardware.capabilityconfigstore@1.0 \
     vendor.qti.hardware.fm@1.0 \
     SoterService \
     CneApp \
