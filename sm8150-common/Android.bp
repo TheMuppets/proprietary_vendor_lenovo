@@ -163,17 +163,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "IWlanService",
-	owner: "lenovo",
-	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "lenovo",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
@@ -209,58 +198,58 @@ android_app_import {
 android_app_import {
 	name: "QtiTelephonyService",
 	owner: "lenovo",
-	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
+	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	product_specific: true,
+	system_ext_specific: true,
 }
 
 android_app_import {
 	name: "atfwd",
 	owner: "lenovo",
-	apk: "proprietary/product/app/atfwd/atfwd.apk",
+	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	product_specific: true,
+	system_ext_specific: true,
 }
 
 android_app_import {
 	name: "uceShimService",
 	owner: "lenovo",
-	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
+	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	product_specific: true,
+	system_ext_specific: true,
 }
 
 android_app_import {
 	name: "ims",
 	owner: "lenovo",
-	apk: "proprietary/product/priv-app/ims/ims.apk",
+	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
+	system_ext_specific: true,
 }
 
 android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "lenovo",
-	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
+	system_ext_specific: true,
 }
 
 android_app_import {
