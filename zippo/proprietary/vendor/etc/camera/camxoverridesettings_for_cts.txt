@@ -1,0 +1,16 @@
+exportSecureCamera=FALSE
+enableNCSService=FALSE
+disablePDAF=FALSE
+disableFocusIndication=1
+enableDualIFE=TRUE
+;;IFEDualClockThreshold=600000000
+enableMCTF=FALSE
+dualCamLtmEnable=FALSE
+enableSensorHWSync=FALSE
+enableSensorFpsMatch=FALSE
+multiCameraEnable=FALSE
+multiCamera3ASync=MultiCamera3ASyncQTI
+advanceFeatureMask=0x3
+;;enableOfflineNoiseReprocess=1
+minReprocessInputWidth=1921
+minReprocessInputHeight=1081

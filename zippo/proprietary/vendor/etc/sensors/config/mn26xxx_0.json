@@ -1,0 +1,20 @@
+{
+  "config":
+  {
+    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK"],
+    "soc_id": ["336", "341", "347", "360", "339"]
+  },
+  "mn26xxx_0":{
+    "owner": "mn26xxx",
+	".ambient_light":{
+      "owner": "mn26xxx",
+      ".config":{
+        "owner": "mn26xxx",
+        "is_dri":{ "type":"int", "ver":"0", "data":"0"},
+        "hw_id":{ "type":"int", "ver":"0", "data":"0"},
+        "res_idx":{ "type":"int", "ver":"0", "data":"0"},
+        "sync_stream":{ "type":"int", "ver":"0", "data":"0"}
+      }
+    }
+  }
+}
