@@ -18,7 +18,6 @@ property Name is called. -->
     <PerfConfigs>
 
                 <!--Vendor Properties -->
-                <Prop Name="vendor.iop.enable_iop" Value="1" />
                 <Prop Name="vendor.iop.enable_uxe" Value="1" />
                 <Prop Name="vendor.debug.enable.lm" Value="true" />
                 <Prop Name="vendor.perf.iop_v3.enable" Value="true" />
