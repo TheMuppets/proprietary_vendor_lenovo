@@ -1,0 +1,17 @@
+Name mapping:
+[Usecase]		[file_name]	[control text]
+Music playback: 	sp-music	"SP Music"
+Ringtone: 		sp-ringtone 	"SP Ringtone"
+Voice: 			sp-voice 	"SP Voice"
+Calibration: 		sp-cali		"SP Cali"
+
+Version:
+Nov 27th, 2018 - From YZ.Dong
+comments: Updated by YZ for buzz noise fix.
+
+Nov 14th, 2018 - From YZ.Dong
+comments: Updated by YZ for new tuning.
+
+Nov 5th, 2018 - From YZ.Dong
+comments: Initial version for heart.
+
