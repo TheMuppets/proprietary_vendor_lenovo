@@ -410,7 +410,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/zippo/proprietary/vendor/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_video_optical_zoom.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/libgnustl_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnustl_shared.so \
-    vendor/lenovo/zippo/proprietary/vendor/lib64/libmegface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmegface.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/libmegskeleton.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmegskeleton.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/lenovo/zippo/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
